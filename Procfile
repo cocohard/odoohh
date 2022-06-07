@@ -1,1 +1,1 @@
-web: gunicorn odoo-bin:server
+web:gunicorn odoo.conf:server
