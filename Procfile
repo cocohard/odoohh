@@ -1,1 +1,1 @@
-web:gunicorn odoo.conf:server
+web:python setup.py
