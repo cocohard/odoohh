@@ -1,1 +1,1 @@
-web: gunicorn odoo:odoo
+web: gunicorn setup:setup
