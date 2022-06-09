@@ -1,1 +1,2 @@
-web: gunicorn odoo:server
+
+web: gunicorn <oodhh>.wsgi --log-file
