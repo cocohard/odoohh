@@ -1,2 +1,2 @@
 
-web: gunicorn <odoohh>.wsgi --log-file
+web: gunicorn odoohh.wsgi
