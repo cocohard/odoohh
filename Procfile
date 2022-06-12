@@ -1,1 +1,1 @@
-web: gunicorn odoo-bin
+web: gunicorn setup.py
