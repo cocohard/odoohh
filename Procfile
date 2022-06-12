@@ -1,1 +1,1 @@
-web: gunicorn setup:odoo
+web: gunicorn odoohh:odoo-bin
