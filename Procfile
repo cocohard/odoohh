@@ -1,1 +1,1 @@
-web: gunicorn odoo
+web: gunicorn odoo-bin
