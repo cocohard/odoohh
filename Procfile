@@ -1,1 +1,1 @@
-web: gunicorn odoo-bin.wsgi
+web: gunicorn setup.wsgi
