@@ -1,1 +1,1 @@
-web: odooku --database-maxconn 20 --redis-maxconn 10 wsgi $PORT --cron --ws --proxy-mode
+web: gunicorn odoo-bin:odoo
