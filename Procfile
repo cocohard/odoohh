@@ -1,1 +1,1 @@
-web: gunicorn oodhh.wsgi
+web: gunicorn odoo-bin.wsgi
