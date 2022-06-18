@@ -1,2 +1,1 @@
-web: odooku wsgi $PORT
-worker: odooku cron
+web: gunicorn oodhh.wsgi
