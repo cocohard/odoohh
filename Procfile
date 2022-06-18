@@ -1,1 +1,2 @@
-web: gunicorn odoo-bin:odoo
+web: odooku wsgi $PORT
+worker: odooku cron
